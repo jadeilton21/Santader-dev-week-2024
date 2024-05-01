@@ -1,7 +1,9 @@
 package Dio.me.Santaderdevweek2024.model;
 
-import java.math.BigDecimal;
+import jakarta.persistence.Entity;
 
+import java.math.BigDecimal;
+@Entity(name = "tb_card")
 public class Card {
 
 
