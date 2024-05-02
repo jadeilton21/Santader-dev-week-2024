@@ -50,4 +50,12 @@ public class Accout {
     public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
+
+    public BigDecimal getLimite() {
+        return limite;
+    }
+
+    public void setLimite(BigDecimal limite) {
+        this.limite = limite;
+    }
 }
