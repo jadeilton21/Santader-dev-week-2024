@@ -43,4 +43,12 @@ public class User {
     public void setAccout(Accout accout) {
         this.accout = accout;
     }
+
+    public Card getCard() {
+        return card;
+    }
+
+    public void setCard(Card card) {
+        this.card = card;
+    }
 }
