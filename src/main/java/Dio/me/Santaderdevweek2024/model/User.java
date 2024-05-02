@@ -51,4 +51,12 @@ public class User {
     public void setCard(Card card) {
         this.card = card;
     }
+
+    public List<News> getNews() {
+        return news;
+    }
+
+    public void setNews(List<News> news) {
+        this.news = news;
+    }
 }
