@@ -1,9 +1,6 @@
 package Dio.me.Santaderdevweek2024.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.util.List;
 @Entity(name = "tb_user")
@@ -13,13 +10,13 @@ public class User {
     private Long id;
 
     private String nome;
-
+    @OneToOne(cascade = CascadeType.ALL)
     private Accout accout;
-
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Facture> facture;
-
+    @OneToOne(cascade = CascadeType.ALL)
     private Card card ;
-
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<News> news;
 
 
