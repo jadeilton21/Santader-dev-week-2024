@@ -42,4 +42,12 @@ public class Accout {
     public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
+
+    public BigDecimal getBalance() {
+        return balance;
+    }
+
+    public void setBalance(BigDecimal balance) {
+        this.balance = balance;
+    }
 }
