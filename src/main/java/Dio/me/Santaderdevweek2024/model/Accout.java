@@ -26,4 +26,12 @@ public class Accout {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
 }
