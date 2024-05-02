@@ -27,4 +27,20 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Accout getAccout() {
+        return accout;
+    }
+
+    public void setAccout(Accout accout) {
+        this.accout = accout;
+    }
 }
