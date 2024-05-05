@@ -1,6 +1,7 @@
 package Dio.me.Santaderdevweek2024.service.impl;
 
-import Dio.me.Santaderdevweek2024.model.User;
+import Dio.me.Santaderdevweek2024.doMain.model.User;
+import Dio.me.Santaderdevweek2024.doMain.repository.UserRepository;
 import Dio.me.Santaderdevweek2024.service.UserService;
 import org.springframework.stereotype.Service;
 
