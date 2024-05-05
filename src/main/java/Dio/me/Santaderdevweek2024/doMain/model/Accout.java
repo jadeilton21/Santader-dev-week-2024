@@ -1,4 +1,4 @@
-package Dio.me.Santaderdevweek2024.model;
+package Dio.me.Santaderdevweek2024.doMain.model;
 
 import jakarta.persistence.*;
 import org.springframework.web.bind.annotation.GetMapping;
