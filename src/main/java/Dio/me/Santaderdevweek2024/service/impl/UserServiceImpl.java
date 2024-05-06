@@ -5,6 +5,8 @@ import Dio.me.Santaderdevweek2024.doMain.repository.UserRepository;
 import Dio.me.Santaderdevweek2024.service.UserService;
 import org.springframework.stereotype.Service;
 
+import java.util.NoSuchElementException;
+
 @Service
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
@@ -21,7 +23,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User create(User userToCreate) {
-        if (userRepository.existsByAccountNumber(userToCreate.getAccount().getNumber())) {
+        if (userRepository.existsByAccoutNumero(userToCreate.getAccout().getNumero())) {
             throw new IllegalArgumentException("This Account number already exists.");
         }
         return userRepository.save(userToCreate);
