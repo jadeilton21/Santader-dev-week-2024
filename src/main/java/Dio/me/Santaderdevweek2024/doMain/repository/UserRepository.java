@@ -1,11 +1,12 @@
 package Dio.me.Santaderdevweek2024.doMain.repository;
 
 import Dio.me.Santaderdevweek2024.doMain.model.User;
+import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class UserRepository implements JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
-    boolean existsByAccountNumber(String accountNumber);
+    boolean existsByAccoutNumero(String accountNumber);
 }
