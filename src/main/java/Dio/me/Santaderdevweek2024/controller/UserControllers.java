@@ -1,6 +1,9 @@
 package Dio.me.Santaderdevweek2024.controller;
 
+import Dio.me.Santaderdevweek2024.doMain.model.User;
 import Dio.me.Santaderdevweek2024.service.UserService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,4 +19,8 @@ public class UserControllers {
         this.userService = userService;
     }
 
+
+    private ResponseEntity<User> findById(@PathVariable Long id){
+
+    }
 }
