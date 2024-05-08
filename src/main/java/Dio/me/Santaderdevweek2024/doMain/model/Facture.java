@@ -6,4 +6,6 @@ import jakarta.persistence.Entity;
 public class Facture extends BaseItem {
 
 
+
+
 }
