@@ -20,6 +20,7 @@ public class UserControllers {
         this.userService = userService;
     }
 
+
     @GetMapping("/{id}")
     private ResponseEntity<User> findById(@PathVariable Long id){
         var user = userService.findById(id);
