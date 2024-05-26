@@ -16,6 +16,7 @@ public class Card {
 
     public Long getId() {
         return id;
+        
     }
 
     public void setId(Long id) {
