@@ -35,6 +35,7 @@ class UserServiceImplTest {
     }
 
     @Test
-    void create() {
+    @DisplayName("Deve Devolver Código Http 404 quando informações forem invalidas..")
+    void create() throws Exception{
     }
 }
