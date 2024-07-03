@@ -1,7 +1,13 @@
 package Dio.me.Santaderdevweek2024.service.impl;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 class UserServiceImplTest {
+
+
+
+
+
 
 }
