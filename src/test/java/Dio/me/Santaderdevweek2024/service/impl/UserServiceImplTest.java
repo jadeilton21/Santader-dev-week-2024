@@ -37,5 +37,11 @@ class UserServiceImplTest {
     @Test
     @DisplayName("Deve Devolver Código Http 404 quando informações forem invalidas..")
     void create() throws Exception{
+
+
+
+        var response = mockMvc.perform(
+                post("")
+        ).andReturn().getResponse();
     }
 }
