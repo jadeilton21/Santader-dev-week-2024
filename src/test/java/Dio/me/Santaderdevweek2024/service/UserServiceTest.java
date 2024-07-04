@@ -1,5 +1,6 @@
 package Dio.me.Santaderdevweek2024.service;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -21,6 +22,11 @@ class UserServiceTest {
 
 
     @Test
-    void findById() {
+    @DisplayName("Deve Devolver Código http 404 quando informações forem invalidas")
+    void findById() throws Exception {
+
+        
+
+
     }
 }
