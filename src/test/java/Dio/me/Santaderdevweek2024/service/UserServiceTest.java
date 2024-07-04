@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 
 
 @SpringBootTest
@@ -25,7 +25,9 @@ class UserServiceTest {
     @DisplayName("Deve Devolver Código http 404 quando informações forem invalidas")
     void findById() throws Exception {
 
-        
+        var response = mockMvc
+                .perform(post(""))
+                .andReturn().getResponse();
 
 
     }
