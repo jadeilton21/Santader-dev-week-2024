@@ -26,7 +26,7 @@ class UserServiceImplTest {
 
 
         var response = mockMvc
-                .perform(post(""))
+                .perform(post("/users"))
                 .andReturn().getResponse();
 
 
@@ -41,7 +41,7 @@ class UserServiceImplTest {
 
 
         var response = mockMvc.perform(
-                post("")
+                post("/users")
         ).andReturn().getResponse();
 
         assertThat(response.getStatus())
