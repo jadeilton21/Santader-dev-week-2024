@@ -37,6 +37,7 @@ class UserServiceTest {
     }
 
     @Test
-    void create() {
+    @DisplayName("Deve Devolver Código Http 404")
+    void create() throws Exception {
     }
 }
