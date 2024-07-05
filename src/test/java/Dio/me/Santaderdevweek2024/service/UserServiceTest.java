@@ -39,5 +39,14 @@ class UserServiceTest {
     @Test
     @DisplayName("Deve Devolver Código Http 404")
     void create() throws Exception {
+
+
+        var response = mockMvc
+                .perform(post(""))
+                .andReturn().getResponse();
+
+
+        assertThat(response.getStatus())
+                .isEqualTo(HttpStatus.BAD_REQUEST.value());
     }
 }
