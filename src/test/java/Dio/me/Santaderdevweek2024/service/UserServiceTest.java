@@ -35,4 +35,8 @@ class UserServiceTest {
                 .isEqualTo(HttpStatus.BAD_REQUEST.value());
 
     }
+
+    @Test
+    void create() {
+    }
 }
