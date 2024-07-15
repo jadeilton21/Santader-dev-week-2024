@@ -10,6 +10,5 @@ public class SantaderDevWeek2024Application {
 		SpringApplication.run(SantaderDevWeek2024Application.class, args);
 	}
 
-
-
+	
 }
