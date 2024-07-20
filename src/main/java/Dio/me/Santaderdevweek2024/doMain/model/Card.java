@@ -20,9 +20,6 @@ public class Card {
     }
 
 
-
-
-
     public void setId(Long id) {
         this.id = id;
     }
