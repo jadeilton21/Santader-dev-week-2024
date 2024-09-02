@@ -11,7 +11,7 @@ public abstract class BaseItem {
 
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long i
+    private Long id
 
 
 
