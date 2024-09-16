@@ -38,8 +38,6 @@ public class Accout {
     public String getAgencia() {
         return agencia;
     }
-
-
     public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
