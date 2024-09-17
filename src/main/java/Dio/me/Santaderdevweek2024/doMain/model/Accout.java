@@ -18,7 +18,6 @@ public class Accout {
     @Column(name = "additional_limit", precision = 13, scale = 2)
     private BigDecimal limite;
 
-
     public Long getId() {
         return id;
     }
