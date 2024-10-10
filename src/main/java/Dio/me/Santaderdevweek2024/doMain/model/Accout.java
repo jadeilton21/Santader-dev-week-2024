@@ -23,7 +23,7 @@ public class Accout {
     }
 
 
-    
+
     public void setId(Long id) {
         this.id = id;
     }
