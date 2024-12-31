@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 
-
-
 import java.math.BigDecimal;
 @Entity(name = "tb_Acout")
 public class Accout {
