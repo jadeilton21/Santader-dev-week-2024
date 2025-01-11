@@ -18,6 +18,7 @@ public class Accout {
     @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
+
     @Column(name = "additional_limit", precision = 13, scale = 2)
     private BigDecimal limite;
 
