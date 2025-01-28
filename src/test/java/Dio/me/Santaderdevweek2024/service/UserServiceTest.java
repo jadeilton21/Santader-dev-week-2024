@@ -45,7 +45,6 @@ class UserServiceTest {
                 .perform(post(""))
                 .andReturn().getResponse();
 
-        
 
         assertThat(response.getStatus())
                 .isEqualTo(HttpStatus.BAD_REQUEST());
